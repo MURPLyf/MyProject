@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
          cadapter = new CustomListAdapter(MainActivity.this, dataList);
         listView.setAdapter(cadapter);
         Log.i("AAAAAAAA", "修改了的");
+        Log.i("BBBBB", "真的忽略完成了吗？");
 
     }
 
