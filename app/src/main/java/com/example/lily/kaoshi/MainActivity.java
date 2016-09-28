@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("AAAAAAAA", "修改了的");
         //重新克隆一个文件，将另一个文件中的内容拷贝到这个新克隆的文件夹下同时修改，然后提交，再下载下来会出问题吗？
         Log.i("BBBBBB", "修改了啊？");
+        Log.i("CCCCCCCC", "第四次更改");
 
     }
 
