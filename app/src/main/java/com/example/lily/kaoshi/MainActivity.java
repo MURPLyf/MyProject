@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView)findViewById(R.id.ListView01);
          cadapter = new CustomListAdapter(MainActivity.this, dataList);
         listView.setAdapter(cadapter);
+        Log.i("AAAAAAAA", "修改了的");
 
     }
 
